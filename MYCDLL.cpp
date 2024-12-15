@@ -103,10 +103,10 @@ Node *pre,*cur;
 		cin >> choice ;
 		switch(choice){
 			case 1 :
-			cout << "Enter elemnet tto be inserted : " ; cin >> x ; list.insert(x) ;
+			cout << "Enter elemnet to be inserted : " ; cin >> x ; list.insert(x) ;
 			break ;
 			case 2 :
-			cout << "Enter elemnet tto be search : " ; cin >> x ; 	cout << list.search(pre,cur,x) ;
+			cout << "Enter elemnet to be search : " ; cin >> x ; 	cout << list.search(pre,cur,x) ;
 			break ;		
 			case 3 :
 			cout << (list.full())?"List is FULL\n":"List is NOT FULL\n";
@@ -115,7 +115,7 @@ Node *pre,*cur;
 			cout << (list.empty())?"List is EMPTY\n":"List is NOT EMPTY\n";
 			break ;
 			case 5 :
-			cout << "No. of nodes in Lisr : " <<list.count() << endl;
+			cout << "No. of nodes in List : " <<list.count() << endl;
 			break ;
 			case 6 :
 			cout << "List Displayed from rear :  " ; 
